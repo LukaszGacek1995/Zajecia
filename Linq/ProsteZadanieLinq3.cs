@@ -22,6 +22,7 @@ namespace ConsoleApp48.Linq
 
         //}
 
+
         public bool MechanizmWyliczaniaLiczbPierwszych(int liczba)
         {
             if(liczba <= 1)
