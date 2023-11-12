@@ -12,7 +12,6 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje
         public int LiczbaMiejsceWPociagu_M { get; private set; }
         public int LiczbaZgloszen_Z { get; private set; }
         public List<Tuple<int, int, int>> WprowadzoneWartosci { get; private set; }
-
         public void WprowadzeniePoczatkowychWartosci()
         {
             string[] trzyWartosciWStringu;
