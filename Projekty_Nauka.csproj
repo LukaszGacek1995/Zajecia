@@ -121,9 +121,11 @@
     <Compile Include="Spoj_Zadanie_Srednie\Jesienne_Porządki.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Koleje\GlownaMetodaPociag.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Koleje\MechanizmyObliczaniaPociagu.cs" />
+    <Compile Include="Spoj_Zadanie_Srednie\Koleje\MODYFIKACJEkoleje\IPociag.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Koleje\MODYFIKACJEkoleje\MODYFIKACJAMechanizmyObliczaniaPociagu.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Koleje\MODYFIKACJEkoleje\MODYFIKACJAParametryWejsciowePociag.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Koleje\MODYFIKACJEkoleje\MODYFIKACJEGlownaMetodaPociag.cs" />
+    <Compile Include="Spoj_Zadanie_Srednie\Koleje\MODYFIKACJEkoleje\ParametryEnuma.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Koleje\ParametryWejsciowePociag.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Konferencja\IPrzekazywanie.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\Konferencja\KlasaObliczajacaDzialanie.cs" />

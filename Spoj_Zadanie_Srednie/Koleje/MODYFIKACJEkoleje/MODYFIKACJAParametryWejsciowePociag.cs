@@ -8,6 +8,7 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
 {
     internal class MODYFIKACJAParametryWejsciowePociag
     {
+
         public int LiczbaMiast_N { get; private set; }
         public int LiczbaMiejsceWPociagu_M { get; private set; }
         public int LiczbaZgloszen_Z { get; private set; }
@@ -15,8 +16,13 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
 
         public void WprowadzeniePoczatkowychWartosci(out int n, out int m, out int z, out List<Tuple<int, int, int>> zgloszenia)
         {
+            
+
+            n = m = z = 0;
             string[] trzyWartosciWStringu;
             bool poprawneTrzyWartosci = false;
+
+            
 
             while (!poprawneTrzyWartosci)
             {
@@ -25,12 +31,15 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
                 if (trzyWartosciWStringu.Length == 3)
                 {
                     poprawneTrzyWartosci = true;
-                    n = int.Parse(trzyWartosciWStringu[0]);
-                    m = int.Parse(trzyWartosciWStringu[1]);
-                    z = int.Parse(trzyWartosciWStringu[2]);
+
+                    // Wywałanie enumów zamiast pojedyńczych cyfr
+                    n = int.Parse(trzyWartosciWStringu[(int)EnumClass.Parametry.LiczbaMiast]);
+                    m = int.Parse(trzyWartosciWStringu[(int)EnumClass.Parametry.LiczbaMiejscWPociagu]);
+                    z = int.Parse(trzyWartosciWStringu[(int)EnumClass.Parametry.LiczbaZgloszen]);
                 }
                 else
                 {
+
                     Console.WriteLine("Wprowadziłeś wartośći z poza kresu, muszą być dokładnie 3 cyfry");
                     Console.WriteLine($"Wprowadzona przez Ciebie ilość to {trzyWartosciWStringu.Length}, spróbuj jeszcze raz");
                 }

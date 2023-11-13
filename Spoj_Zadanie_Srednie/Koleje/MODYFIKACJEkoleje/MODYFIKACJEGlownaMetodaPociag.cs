@@ -17,7 +17,7 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
 
             MODYFIKACJAMechanizmyObliczaniaPociagu mechanizmyObliczaniaPociagu = new MODYFIKACJAMechanizmyObliczaniaPociagu(n, m);
             string[] wyniki = new string[z];
-            mechanizmyObliczaniaPociagu.GlowneObliczenie(zgloszenia, ref wyniki);
+            mechanizmyObliczaniaPociagu.GlowneObliczenie();
 
             Console.ReadKey();
         }
