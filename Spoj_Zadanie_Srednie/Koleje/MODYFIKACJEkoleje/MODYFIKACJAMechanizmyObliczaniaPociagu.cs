@@ -8,12 +8,12 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
 {
     internal class MODYFIKACJAMechanizmyObliczaniaPociagu : IPociag
     {
-        private int[] train; // Tablica reprezentująca pociąg
+        private int[,] train; // Tablica reprezentująca pociąg
         private int m; // Liczba miejsc w pociągu
 
         public List<Tuple<int, int, int>> WprowadzoneWartosci { get; set; }
 
-        public int[] Train
+        public int[,] Train
         {
             get 
             {
@@ -37,7 +37,7 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
         }
         public MODYFIKACJAMechanizmyObliczaniaPociagu(int n, int m)
         {
-            train = new int[n];
+            train = new int[n,m];
             this.m = m;
         }
 
@@ -63,7 +63,7 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
                 bool canAccept = true;
                 for (int i = p - 1; i < k; i++)
                 {
-                    if (train[i] + l > m)
+                    if (train[i,i] + l > m)
                     {
                         canAccept = false;
                         break;
@@ -75,7 +75,10 @@ namespace ConsoleApp48.Spoj_Zadanie_Srednie.Koleje.MODYFIKACJEkoleje
                 {
                     for (int i = p - 1; i < k; i++)
                     {
-                        train[i] += l;
+                        for (int j = p - 1; j < k;j++)
+                        {
+                            train[i, i] += l;
+                        }
                     }
                 }
 
