@@ -143,6 +143,10 @@
     <Compile Include="Spoj_Zadanie_Srednie\ZabawaWDwaOgnie.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\ŁamaczGG\LamaczGGMechanizmDzialania.cs" />
     <Compile Include="Spoj_Zadanie_Srednie\ŁamaczGG\Łamacz_gg.cs" />
+    <Compile Include="Spoj_Zadanie_Srednie\Światelka\ObliczanieTakNie.cs" />
+    <Compile Include="Spoj_Zadanie_Srednie\Światelka\SprawdzanieSwiatelek.cs" />
+    <Compile Include="Spoj_Zadanie_Srednie\Światelka\WartosciWprowadzone.cs" />
+    <Compile Include="Spoj_Zadanie_Srednie\Światelka\ZwracanieTaklubNie.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

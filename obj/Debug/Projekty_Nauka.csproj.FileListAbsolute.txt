@@ -1,8 +1,8 @@
-C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\bin\Debug\ConsoleApp48.exe.config
-C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\bin\Debug\ConsoleApp48.exe
-C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\bin\Debug\ConsoleApp48.pdb
 C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\obj\Debug\Projekty_Nauka.csproj.AssemblyReference.cache
 C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\obj\Debug\Projekty_Nauka.csproj.SuggestedBindingRedirects.cache
 C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\obj\Debug\Projekty_Nauka.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\bin\Debug\ConsoleApp48.exe.config
+C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\bin\Debug\ConsoleApp48.exe
+C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\bin\Debug\ConsoleApp48.pdb
 C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\obj\Debug\ConsoleApp48.exe
 C:\Users\Łukasz Gacek\source\repos\ConsoleApp48\ConsoleApp48\obj\Debug\ConsoleApp48.pdb
